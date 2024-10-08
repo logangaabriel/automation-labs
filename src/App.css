@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.app-header {
+  margin-bottom: 40px;
+}
+
+.app-logo {
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+  margin-bottom: 20px;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.app-description {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  background-color: #fffbe6;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 5px solid #ffeeba;
+}
+
+.flash-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espaçamento entre os cards */
+  flex-wrap: wrap; /* Para permitir que os cards se ajustem em várias linhas */
+}
+
+.app-footer {
+  margin-top: 40px;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ddd; /* Linha superior para o footer */
+}
+
+.app-license a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.app-license a:hover {
+  text-decoration: underline;
+}
+
+.app-disclaimer {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: #999;
+}
