@@ -16,7 +16,7 @@ body {
 }
 
 .app-logo {
-  width: 100px; /* Ajuste o tamanho conforme necessário */
+  width: 100px;
   margin-bottom: 20px;
 }
 
@@ -38,8 +38,8 @@ body {
 .flash-cards {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Espaçamento entre os cards */
-  flex-wrap: wrap; /* Para permitir que os cards se ajustem em várias linhas */
+  gap: 20px; 
+  flex-wrap: wrap; 
 }
 
 .app-footer {
@@ -47,7 +47,7 @@ body {
   padding: 10px 0;
   font-size: 0.9rem;
   color: #666;
-  border-top: 1px solid #ddd; /* Linha superior para o footer */
+  border-top: 1px solid #ddd; 
 }
 
 .app-license a {
